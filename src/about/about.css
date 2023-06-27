@@ -1,0 +1,10 @@
+.About {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.About h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}

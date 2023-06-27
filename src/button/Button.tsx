@@ -1,10 +1,11 @@
 import React from "react";
-import "./Buttonadd.css";
 
-export const Button = () => {
+export const Button = ({ handleClick }: any) => {
   return (
-    <div className="Buttonadd">
-      <button>Hello</button>
+    <div className="button">
+      <button type="button" onClick={handleClick}>
+        ADD
+      </button>
     </div>
   );
 };
